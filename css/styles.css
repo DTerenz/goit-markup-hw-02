@@ -1,0 +1,400 @@
+/* top line bg */
+.navigation {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+}
+/* end top line bg */
+
+/* logo */
+.logo-web {
+  text-decoration: none;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-studio-header {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+/* end logo */
+
+/*  navigation  */
+.menu {
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+.link:hover {
+  color: #2196f3;
+}
+.studio {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.portpholio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+}
+.contaccts {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+}
+.contacts-menu {
+  list-style: none;
+}
+.mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+}
+.tel {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+}
+.contacts-menu-item {
+  color: #757575;
+}
+.contacts-menu-item:hover {
+  color: #2196f3;
+}
+
+/*  end navigation  */
+
+/*  hero  */
+.background-head {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+.effect {
+  margin: auto;
+  padding-top: 200px;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.model-btn {
+  border-radius: 5px;
+  margin-left: 700px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
+}
+.model-btn:hover {
+  position: absolute;
+  visibility: hidden;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+
+/*  end hero  */
+
+/*  our specifics  */
+
+.specifics {
+  position: absolute;
+  width: 170px;
+  height: 101px;
+  left: 5px;
+  top: 4px;
+}
+.spacifics-lict-items {
+  list-style: none;
+}
+.specific-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.specific-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.warning {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.punctuality {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 515px;
+  top: 774px;
+}
+.planning {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 815px;
+  top: 774px;
+}
+.technology {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+  top: 774px;
+}
+
+/*  end our specifics  */
+
+/*  gallery  */
+
+.images {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+.what-we-do {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.images-item {
+  display: inline-flex;
+  list-style: none;
+}
+.images-keyboard {
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+.images-notebook {
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+  padding-left: 30px;
+}
+.images-gamma {
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+  padding-left: 30px;
+}
+
+/*  end gallery  */
+
+/*  our team  */
+
+.our-team {
+  margin-top: 84px;
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.our-team-bloc {
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  position: absolute;
+  background: #f5f4fa;
+}
+.team-list {
+  display: flex;
+  list-style: none;
+  padding-left: 215px;
+}
+
+.team-card {
+  margin-left: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-imagies {
+  width: 270px;
+  height: 260px;
+  left: 515px;
+  top: 1635px;
+}
+.name-worker {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.name-working {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*  end our team  */
+
+/*  footer  */
+.back {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+
+.end-logo {
+  display: flex;
+  text-decoration: none;
+  padding-left: 215px;
+  padding-top: 60px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-studio {
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.contact {
+  padding-left: 215px;
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts-end {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contacts-end-mail {
+  margin-top: 9px;
+}
+.contacts-end-tel {
+  margin-top: 9px;
+}
+
+.superscription {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+/*  end footer  */
