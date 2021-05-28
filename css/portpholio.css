@@ -1,9 +1,5 @@
 /* top line bg */
 .navigation {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
   background: #ffffff;
 }
 /* end top line bg */
@@ -28,10 +24,6 @@
 /* end logo */
 
 .header {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
 }
 
 /*  navigation  */
@@ -44,11 +36,25 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   display: flex;
-  padding-left: 453px;
 }
 
 .menu-item {
-  margin-right: 50px;
+}
+
+.name-card {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.name-filter {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 .link {
   color: #212121;
@@ -60,34 +66,19 @@
   color: #2196f3;
 }
 .studio {
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
 }
 .portpholio {
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
 }
 .contaccts {
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
 }
 .contacts-menu {
   list-style: none;
   display: flex;
-  padding-left: 1078px;
-  margin-top: -40px;
 }
 
 .contacts-menu-item {
   color: #757575;
   text-decoration: none;
-  padding-right: 50px;
 }
 .contacts-menu-item:hover {
   color: #2196f3;
@@ -96,44 +87,38 @@
 /*  maine section  */
 
 .main-section {
-  width: 1170px;
-  height: 1360px;
-  padding-left: 215px;
 }
 
 /*  end maine section  */
-
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
 /* buttons  */
 
 .filter-button {
   list-style: none;
   display: flex;
-  padding-left: 280px;
-  width: 611px;
-  height: 54px;
-  left: 495px;
-  top: 174px;
 }
-.all-button {
-  width: 73px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
-  color: #212121;
-  border-radius: 4px;
+.all-buttons {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
   background: #f5f4fa;
+  border-radius: 4px;
+  color: #212121;
   border: none;
 }
-.all-button:hover {
+.all-buttons:hover {
   color: #ffffff;
   background: #2196f3;
   cursor: pointer;
 }
 .web-site-button {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
   border: none;
   background: #f5f4fa;
   border-radius: 4px;
@@ -146,10 +131,7 @@
 }
 .app-button {
   border: none;
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
+
   background: #f5f4fa;
   border-radius: 4px;
   margin-left: 8px;
@@ -161,13 +143,9 @@
 }
 .desing-button {
   border: none;
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  top: 174px;
+
   background: #f5f4fa;
   border-radius: 4px;
-  margin-left: 8px;
 }
 .desing-button:hover {
   color: #ffffff;
@@ -176,12 +154,8 @@
 }
 .marketing-button {
   border: none;
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 174px;
+
   background: #f5f4fa;
-  margin-left: 8px;
 }
 .marketing-button:hover {
   color: #ffffff;
@@ -193,40 +167,14 @@
 
 /*  text properties  */
 
-p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  color: #757575;
-  padding-left: 24px;
-}
-h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  font-family: Roboto;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: #212121;
-  margin-left: 24px;
-  margin-bottom: -20px;
-}
-
 /*  end text properties  */
 
 /*  projects   */
 
 img {
-  width: 360px;
-  height: 294px;
 }
 
 .list {
-  margin: 0 auto;
-  font-size: 0;
-  padding-left: 0px;
 }
 
 .list-item {
@@ -236,29 +184,20 @@ img {
   box-sizing: border-box;
 }
 .list-item:not(:nth-child(3n)) {
-  margin-right: 30px;
 }
 .list-item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
 }
 
 /*  end projects  */
 
 /*  footer  */
 .back {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
   background: #2f303a;
 }
 
 .end-logo {
   display: flex;
   text-decoration: none;
-  padding-left: 215px;
-  padding-top: 60px;
-
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -280,7 +219,6 @@ img {
 .contact {
   padding-left: 215px;
   list-style: none;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -289,7 +227,6 @@ img {
   color: #ffffff;
 }
 .contacts-end {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.03em;
@@ -297,14 +234,11 @@ img {
   text-decoration: none;
 }
 .contacts-end-mail {
-  margin-top: 9px;
 }
 .contacts-end-tel {
-  margin-top: 9px;
 }
 
 .superscription {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
