@@ -24,7 +24,7 @@
 /* end logo */
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 /*  navigation  */
@@ -49,7 +49,11 @@
 .link:hover {
   color: #2196f3;
 }
+.link:focus{
+  color: #2196f3;
+}
 .studio {
+border-bottom:2px solid #2196f3;
 }
 .portpholio {
 }
@@ -58,14 +62,21 @@
 .contacts-menu {
   list-style: none;
 }
+.menu-item-contact:last-child{
+margin-right: auto  ;
+}
 
 .contacts-menu-item {
+  font-size: 14px;
   font-weight: 500;
   color: #757575;
   text-decoration: none;
-  padding-right: 50px;
+ 
 }
-.contacts-menu-item:hover {
+.contacts-menu-item:hover{
+  color: #2196f3;
+}
+.contacts-menu-item:focus{
   color: #2196f3;
 }
 
@@ -128,6 +139,15 @@ body {
 .images {
 }
 .what-we-do {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: Roboto;
+  Weight: 700;
+  color: #380101;
 }
 .images-item {
 }
@@ -143,8 +163,9 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  font-family: Roboto;
+  Weight: 700;
+  color: #380101;
 }
 
 .our-team-bloc {
@@ -161,6 +182,8 @@ body {
 }
 
 .team-imagies {
+  width: 270px;
+height: 260px;
 }
 .name-worker {
   font-weight: 500;

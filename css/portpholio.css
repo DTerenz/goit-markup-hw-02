@@ -68,6 +68,7 @@
 .studio {
 }
 .portpholio {
+  border-bottom:2px solid #2196f3;
 }
 .contaccts {
 }
@@ -77,6 +78,8 @@
 }
 
 .contacts-menu-item {
+  font-size: 14px;
+  font-weight: 500;
   color: #757575;
   text-decoration: none;
 }
